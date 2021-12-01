@@ -2,6 +2,8 @@
 
 Please excuse the simple design of the website if possible, since I am currently having end-semester examinations and I was unable to give appropriate time in designing.
 
+I tried Hosting the Application on Netlify but it seems that the REST API provided to us does not allow fetching data from any domain except localhost
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
