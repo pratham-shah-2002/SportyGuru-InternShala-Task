@@ -1,0 +1,24 @@
+.nav {
+  height: 60px;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  color: #0ecbc0;
+  /* margin-bottom: 30px; */
+  z-index: 10;
+}
+
+.nav.active {
+  box-shadow: -10px -10px 30px #fff, 10px 10px 30px #aeaec040;
+}
+
+/* @media (max-width: 768px) {
+  .nav {
+    position: fixed;
+    top: 0;
+  }
+} */

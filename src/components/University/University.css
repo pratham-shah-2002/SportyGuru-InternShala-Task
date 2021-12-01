@@ -1,0 +1,45 @@
+a {
+  text-decoration: none;
+  color: black;
+  transition: color 150ms ease-in;
+  background: transparent;
+}
+
+a:hover .singleUniversity,
+a:hover .sr,
+a:hover .university-name {
+  color: #009cea;
+}
+
+.singleUniversity {
+  width: 50vw;
+  padding: 20px 0;
+  display: flex;
+  border-radius: 17px;
+  transition: color 150ms ease;
+  align-items: center;
+}
+
+.sr,
+.university-name {
+  transition: all 150ms ease;
+}
+
+.sr {
+  transform: translateX(50px);
+}
+.university-name {
+  transform: translateX(100px);
+}
+
+@media (max-width: 768px) {
+  .singleUniversity {
+    width: 90vw;
+  }
+  .sr {
+    transform: translateX(0px);
+  }
+  .university-name {
+    transform: translateX(20px);
+  }
+}

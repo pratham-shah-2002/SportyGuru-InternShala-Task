@@ -1,0 +1,39 @@
+.universities {
+  height: max-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.spinner {
+  height: 100px;
+  width: 100px;
+}
+.uni-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.uni-btn button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: #0ecbc0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 30px;
+}
+
+@media (max-width: 768px) {
+  .currentCountry {
+    text-align: center;
+    font-size: 14px;
+  }
+  .uni-btn button {
+    padding: 10px;
+  }
+}
